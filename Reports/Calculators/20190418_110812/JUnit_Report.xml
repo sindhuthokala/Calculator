@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Calculators" time="14" tests="2" failures="0" errors="1">
+   <testsuite name="Calculators" tests="2" failures="0" errors="1" time="14" timestamp="2019-04-18 11:08:13" hostname="sthokala - 10.12.51.212" id="Test Suites/Calculators">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/sthokala/Katalon Studio/Calculator/Reports/Calculators/20190418_110812"/>
+         <property name="logFiles" value="/Users/sthokala/Katalon Studio/Calculator/Reports/Calculators/20190418_110812/execution0.log"/>
+         <property name="attachments" value="/Users/sthokala/Documents/DRCalculator.png, /Users/sthokala/Documents/MFCalculator.png"/>
+         <property name="hostName" value="sthokala - 10.12.51.212"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="6.1.1.1"/>
+         <property name="browser" value="Chrome 73.0.3683.103"/>
+         <property name="hostAddress" value="10.12.51.212"/>
+         <property name="sessionId" value="0bf79151a7a39eddf3e1ec036c49befa"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/DividendReinvestmentCalc" classname="Test Cases/DividendReinvestmentCalc" status="PASSED">
+         <system-out><![CDATA[2019-04-18 11:08:14 - [TEST_CASE][PASSED] - Test Cases/DividendReinvestmentCalc: Test Cases/DividendReinvestmentCalc
+
+2019-04-18 11:08:14 - [TEST_STEP][PASSED] - openBrowser("https://calc.crafton.ocweb.team/dividend-reinvestment/"): Browser is opened with url: 'https://calc.crafton.ocweb.team/dividend-reinvestment/'
+
+2019-04-18 11:08:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-18 11:08:14 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-18 11:08:16 - [MESSAGE][PASSED] - Browser is opened with url: 'https://calc.crafton.ocweb.team/dividend-reinvestment/'
+
+2019-04-18 11:08:16 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-04-18 11:08:16 - [TEST_STEP][PASSED] - baseUrl = "https://calc.crafton.ocweb.team/dividend-reinvestment/": null
+
+2019-04-18 11:08:16 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2019-04-18 11:08:16 - [TEST_STEP][PASSED] - selenium.open("https://calc.crafton.ocweb.team/dividend-reinvestment/"): null
+
+2019-04-18 11:08:17 - [TEST_STEP][PASSED] - selenium.click("id=initialNumberOfShares"): null
+
+2019-04-18 11:08:17 - [TEST_STEP][PASSED] - selenium.type("id=initialNumberOfShares", "200"): null
+
+2019-04-18 11:08:17 - [TEST_STEP][PASSED] - selenium.click("id=initialPriceOfShares"): null
+
+2019-04-18 11:08:17 - [TEST_STEP][PASSED] - selenium.type("id=initialPriceOfShares", "234"): null
+
+2019-04-18 11:08:17 - [TEST_STEP][PASSED] - selenium.click("id=annualDividend"): null
+
+2019-04-18 11:08:17 - [TEST_STEP][PASSED] - selenium.type("id=annualDividend", "23432"): null
+
+2019-04-18 11:08:17 - [TEST_STEP][PASSED] - selenium.click("id=dividendAnnualGrowthRate"): null
+
+2019-04-18 11:08:17 - [TEST_STEP][PASSED] - selenium.type("id=dividendAnnualGrowthRate", "43"): null
+
+2019-04-18 11:08:17 - [TEST_STEP][PASSED] - selenium.click("id=stockPriceAnnualGrowthRate"): null
+
+2019-04-18 11:08:17 - [TEST_STEP][PASSED] - selenium.type("id=stockPriceAnnualGrowthRate", "23"): null
+
+2019-04-18 11:08:17 - [TEST_STEP][PASSED] - selenium.click("id=numberOfYears"): null
+
+2019-04-18 11:08:17 - [TEST_STEP][PASSED] - selenium.type("id=numberOfYears", "3"): null
+
+2019-04-18 11:08:17 - [TEST_STEP][PASSED] - selenium.click("id=numOfReinvestmentPerYear"): null
+
+2019-04-18 11:08:17 - [TEST_STEP][PASSED] - selenium.select("id=numOfReinvestmentPerYear", "label=3"): null
+
+2019-04-18 11:08:18 - [TEST_STEP][PASSED] - selenium.click("id=dividend-reinvestment-calculate"): null
+
+2019-04-18 11:08:18 - [TEST_STEP][PASSED] - selenium.click("name=s"): null
+
+2019-04-18 11:08:18 - [TEST_STEP][PASSED] - takeScreenshot("/Users/sthokala/Documents/DRCalculator.png"): Taking screenshot successfully
+
+2019-04-18 11:08:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/sthokala/Documents/DRCalculator.png]]
+
+2019-04-18 11:08:18 - [TEST_STEP][PASSED] - selenium.close(): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MutualFundCalc" classname="Test Cases/MutualFundCalc" status="PASSED">
+         <system-out><![CDATA[2019-04-18 11:08:19 - [TEST_CASE][PASSED] - Test Cases/MutualFundCalc: Test Cases/MutualFundCalc
+
+2019-04-18 11:08:19 - [TEST_STEP][PASSED] - openBrowser("https://calc.crafton.ocweb.team/mutual-fund/"): Browser is opened with url: 'https://calc.crafton.ocweb.team/mutual-fund/'
+
+2019-04-18 11:08:19 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-18 11:08:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-18 11:08:21 - [MESSAGE][PASSED] - Browser is opened with url: 'https://calc.crafton.ocweb.team/mutual-fund/'
+
+2019-04-18 11:08:21 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-04-18 11:08:21 - [TEST_STEP][PASSED] - baseUrl = "https://calc.crafton.ocweb.team/mutual-fund/": null
+
+2019-04-18 11:08:21 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2019-04-18 11:08:21 - [TEST_STEP][PASSED] - selenium.open("https://calc.crafton.ocweb.team/mutual-fund/"): null
+
+2019-04-18 11:08:21 - [TEST_STEP][PASSED] - selenium.click("id=years"): null
+
+2019-04-18 11:08:21 - [TEST_STEP][PASSED] - selenium.type("id=years", "45"): null
+
+2019-04-18 11:08:21 - [TEST_STEP][PASSED] - selenium.click("id=rateOfReturn"): null
+
+2019-04-18 11:08:21 - [TEST_STEP][PASSED] - selenium.type("id=rateOfReturn", "5"): null
+
+2019-04-18 11:08:21 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Rate of Return:'])[1]/following::div[2]"): null
+
+2019-04-18 11:08:21 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Rate of Return:'])[1]/following::div[2]"): null
+
+2019-04-18 11:08:21 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Rate of Return:'])[1]/following::div[2]"): null
+
+2019-04-18 11:08:21 - [TEST_STEP][PASSED] - selenium.type("id=initialInvestment", "500000"): null
+
+2019-04-18 11:08:21 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Initial Investment:'])[1]/following::div[2]"): null
+
+2019-04-18 11:08:21 - [TEST_STEP][PASSED] - selenium.type("id=annualInvestments", "2000"): null
+
+2019-04-18 11:08:21 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Annual Investments:'])[1]/following::div[2]"): null
+
+2019-04-18 11:08:21 - [TEST_STEP][PASSED] - selenium.type("id=inflationRate", "2"): null
+
+2019-04-18 11:08:22 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Inflation Rate:'])[1]/following::div[2]"): null
+
+2019-04-18 11:08:22 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Inflation Rate:'])[1]/following::label[1]"): null
+
+2019-04-18 11:08:22 - [TEST_STEP][PASSED] - selenium.type("id=taxRate", "34"): null
+
+2019-04-18 11:08:22 - [TEST_STEP][PASSED] - selenium.click("id=investment-return-calculate"): null
+
+2019-04-18 11:08:22 - [TEST_STEP][PASSED] - selenium.click("name=s"): null
+
+2019-04-18 11:08:22 - [TEST_STEP][PASSED] - takeScreenshot("/Users/sthokala/Documents/MFCalculator.png"): Taking screenshot successfully
+
+2019-04-18 11:08:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/sthokala/Documents/MFCalculator.png]]
+
+2019-04-18 11:08:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-18 11:08:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Prod_MutualFund" classname="Test Cases/Prod_MutualFund" status="ERROR">
+         <error type="ERROR" message="Test Cases/Prod_MutualFund FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element xpath=(.//*[normalize-space(text()) and normalize-space(.)='Investment Return Calculator'])[1]/following::div[2] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at Prod_MutualFund.run(Prod_MutualFund:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555600092375.run(TempTestSuite1555600092375.groovy:35)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: (.//*[normalize-space(text()) and normalize-space(.)='Investment Return Calculator'])[1]/following::div[2]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'M-1719', ip: 'fe80:0:0:0:1804:679b:94b1:c741%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:114)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at Script1555597486267.run(Script1555597486267.groovy:37)
+	... 13 more
+"/>
+         <system-out><![CDATA[2019-04-18 11:08:22 - [TEST_CASE][ERROR] - Test Cases/Prod_MutualFund: Test Cases/Prod_MutualFund FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element xpath=(.//*[normalize-space(text()) and normalize-space(.)='Investment Return Calculator'])[1]/following::div[2] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at Prod_MutualFund.run(Prod_MutualFund:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555600092375.run(TempTestSuite1555600092375.groovy:35)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: (.//*[normalize-space(text()) and normalize-space(.)='Investment Return Calculator'])[1]/following::div[2]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'M-1719', ip: 'fe80:0:0:0:1804:679b:94b1:c741%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:114)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at Script1555597486267.run(Script1555597486267.groovy:37)
+	... 13 more
+
+
+2019-04-18 11:08:23 - [TEST_STEP][PASSED] - openBrowser("https://wealthyretirement.com/mutual-fund-calculator/"): Browser is opened with url: 'https://wealthyretirement.com/mutual-fund-calculator/'
+
+2019-04-18 11:08:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-18 11:08:26 - [MESSAGE][PASSED] - Browser is opened with url: 'https://wealthyretirement.com/mutual-fund-calculator/'
+
+2019-04-18 11:08:26 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-04-18 11:08:26 - [TEST_STEP][PASSED] - baseUrl = "https://wealthyretirement.com/mutual-fund-calculator/": null
+
+2019-04-18 11:08:26 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2019-04-18 11:08:26 - [TEST_STEP][PASSED] - selenium.open("https://wealthyretirement.com/mutual-fund-calculator/"): null
+
+2019-04-18 11:08:28 - [TEST_STEP][PASSED] - selenium.selectFrame("index=0"): null
+
+2019-04-18 11:08:28 - [TEST_STEP][ERROR] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Investment Return Calculator'])[1]/following::div[2]"): selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Investment Return Calculator'])[1]/following::div[2]") FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element xpath=(.//*[normalize-space(text()) and normalize-space(.)='Investment Return Calculator'])[1]/following::div[2] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at Prod_MutualFund.run(Prod_MutualFund:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555600092375.run(TempTestSuite1555600092375.groovy:35)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: (.//*[normalize-space(text()) and normalize-space(.)='Investment Return Calculator'])[1]/following::div[2]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'M-1719', ip: 'fe80:0:0:0:1804:679b:94b1:c741%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:114)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at Script1555597486267.run(Script1555597486267.groovy:37)
+	... 13 more
+
+
+2019-04-18 11:08:28 - [MESSAGE][ERROR] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Investment Return Calculator'])[1]/following::div[2]") FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element xpath=(.//*[normalize-space(text()) and normalize-space(.)='Investment Return Calculator'])[1]/following::div[2] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at Prod_MutualFund.run(Prod_MutualFund:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555600092375.run(TempTestSuite1555600092375.groovy:35)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: (.//*[normalize-space(text()) and normalize-space(.)='Investment Return Calculator'])[1]/following::div[2]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'M-1719', ip: 'fe80:0:0:0:1804:679b:94b1:c741%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:114)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at Script1555597486267.run(Script1555597486267.groovy:37)
+	... 13 more]]></system-out>
+         <system-err><![CDATA[2019-04-18 11:08:22 - [TEST_CASE][ERROR] - Test Cases/Prod_MutualFund: Test Cases/Prod_MutualFund FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element xpath=(.//*[normalize-space(text()) and normalize-space(.)='Investment Return Calculator'])[1]/following::div[2] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at Prod_MutualFund.run(Prod_MutualFund:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555600092375.run(TempTestSuite1555600092375.groovy:35)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: (.//*[normalize-space(text()) and normalize-space(.)='Investment Return Calculator'])[1]/following::div[2]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'M-1719', ip: 'fe80:0:0:0:1804:679b:94b1:c741%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:114)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at Script1555597486267.run(Script1555597486267.groovy:37)
+	... 13 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-18 11:08:13 - [TEST_SUITE][ERROR] - Calculators: Test Cases/Prod_MutualFund FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element xpath=(.//*[normalize-space(text()) and normalize-space(.)='Investment Return Calculator'])[1]/following::div[2] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at Prod_MutualFund.run(Prod_MutualFund:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555600092375.run(TempTestSuite1555600092375.groovy:35)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: (.//*[normalize-space(text()) and normalize-space(.)='Investment Return Calculator'])[1]/following::div[2]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'M-1719', ip: 'fe80:0:0:0:1804:679b:94b1:c741%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:114)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at Script1555597486267.run(Script1555597486267.groovy:37)
+	... 13 more]]></system-out>
+      <system-err><![CDATA[2019-04-18 11:08:13 - [TEST_SUITE][ERROR] - Calculators: Test Cases/Prod_MutualFund FAILED.
+Reason:
+com.thoughtworks.selenium.SeleniumException: Element xpath=(.//*[normalize-space(text()) and normalize-space(.)='Investment Return Calculator'])[1]/following::div[2] not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at Prod_MutualFund.run(Prod_MutualFund:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555600092375.run(TempTestSuite1555600092375.groovy:35)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: (.//*[normalize-space(text()) and normalize-space(.)='Investment Return Calculator'])[1]/following::div[2]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'M-1719', ip: 'fe80:0:0:0:1804:679b:94b1:c741%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at com.thoughtworks.selenium.webdriven.ElementFinder.xpathWizardry(ElementFinder.java:143)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElementDirectlyIfNecessary(ElementFinder.java:114)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:87)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at Script1555597486267.run(Script1555597486267.groovy:37)
+	... 13 more]]></system-err>
+   </testsuite>
+</testsuites>

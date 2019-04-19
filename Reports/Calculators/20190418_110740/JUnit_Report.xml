@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Calculators" time="10" tests="2" failures="0" errors="0">
+   <testsuite name="Calculators" tests="2" failures="0" errors="0" time="10" timestamp="2019-04-18 11:07:42" hostname="sthokala - 10.12.51.212" id="Test Suites/Calculators">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/sthokala/Katalon Studio/Calculator/Reports/Calculators/20190418_110740"/>
+         <property name="logFiles" value="/Users/sthokala/Katalon Studio/Calculator/Reports/Calculators/20190418_110740/execution0.log"/>
+         <property name="attachments" value="/Users/sthokala/Documents/DRCalculator.png, /Users/sthokala/Documents/MFCalculator.png"/>
+         <property name="hostName" value="sthokala - 10.12.51.212"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="6.1.1.1"/>
+         <property name="browser" value="Chrome 73.0.3683.103"/>
+         <property name="hostAddress" value="10.12.51.212"/>
+         <property name="sessionId" value="2a9ac1824829297151bb49a17b5528bf"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/DividendReinvestmentCalc" classname="Test Cases/DividendReinvestmentCalc" status="PASSED">
+         <system-out><![CDATA[2019-04-18 11:07:42 - [TEST_CASE][PASSED] - Test Cases/DividendReinvestmentCalc: Test Cases/DividendReinvestmentCalc
+
+2019-04-18 11:07:42 - [TEST_STEP][PASSED] - openBrowser("https://calc.crafton.ocweb.team/dividend-reinvestment/"): Browser is opened with url: 'https://calc.crafton.ocweb.team/dividend-reinvestment/'
+
+2019-04-18 11:07:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-18 11:07:42 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-18 11:07:45 - [MESSAGE][PASSED] - Browser is opened with url: 'https://calc.crafton.ocweb.team/dividend-reinvestment/'
+
+2019-04-18 11:07:45 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-04-18 11:07:45 - [TEST_STEP][PASSED] - baseUrl = "https://calc.crafton.ocweb.team/dividend-reinvestment/": null
+
+2019-04-18 11:07:45 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2019-04-18 11:07:45 - [TEST_STEP][PASSED] - selenium.open("https://calc.crafton.ocweb.team/dividend-reinvestment/"): null
+
+2019-04-18 11:07:45 - [TEST_STEP][PASSED] - selenium.click("id=initialNumberOfShares"): null
+
+2019-04-18 11:07:45 - [TEST_STEP][PASSED] - selenium.type("id=initialNumberOfShares", "200"): null
+
+2019-04-18 11:07:46 - [TEST_STEP][PASSED] - selenium.click("id=initialPriceOfShares"): null
+
+2019-04-18 11:07:46 - [TEST_STEP][PASSED] - selenium.type("id=initialPriceOfShares", "234"): null
+
+2019-04-18 11:07:46 - [TEST_STEP][PASSED] - selenium.click("id=annualDividend"): null
+
+2019-04-18 11:07:46 - [TEST_STEP][PASSED] - selenium.type("id=annualDividend", "23432"): null
+
+2019-04-18 11:07:46 - [TEST_STEP][PASSED] - selenium.click("id=dividendAnnualGrowthRate"): null
+
+2019-04-18 11:07:46 - [TEST_STEP][PASSED] - selenium.type("id=dividendAnnualGrowthRate", "43"): null
+
+2019-04-18 11:07:46 - [TEST_STEP][PASSED] - selenium.click("id=stockPriceAnnualGrowthRate"): null
+
+2019-04-18 11:07:46 - [TEST_STEP][PASSED] - selenium.type("id=stockPriceAnnualGrowthRate", "23"): null
+
+2019-04-18 11:07:46 - [TEST_STEP][PASSED] - selenium.click("id=numberOfYears"): null
+
+2019-04-18 11:07:46 - [TEST_STEP][PASSED] - selenium.type("id=numberOfYears", "3"): null
+
+2019-04-18 11:07:46 - [TEST_STEP][PASSED] - selenium.click("id=numOfReinvestmentPerYear"): null
+
+2019-04-18 11:07:46 - [TEST_STEP][PASSED] - selenium.select("id=numOfReinvestmentPerYear", "label=3"): null
+
+2019-04-18 11:07:46 - [TEST_STEP][PASSED] - selenium.click("id=dividend-reinvestment-calculate"): null
+
+2019-04-18 11:07:47 - [TEST_STEP][PASSED] - selenium.click("name=s"): null
+
+2019-04-18 11:07:47 - [TEST_STEP][PASSED] - takeScreenshot("/Users/sthokala/Documents/DRCalculator.png"): Taking screenshot successfully
+
+2019-04-18 11:07:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/sthokala/Documents/DRCalculator.png]]
+
+2019-04-18 11:07:47 - [TEST_STEP][PASSED] - selenium.close(): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MutualFundCalc" classname="Test Cases/MutualFundCalc" status="PASSED">
+         <system-out><![CDATA[2019-04-18 11:07:47 - [TEST_CASE][PASSED] - Test Cases/MutualFundCalc: Test Cases/MutualFundCalc
+
+2019-04-18 11:07:47 - [TEST_STEP][PASSED] - openBrowser("https://calc.crafton.ocweb.team/mutual-fund/"): Browser is opened with url: 'https://calc.crafton.ocweb.team/mutual-fund/'
+
+2019-04-18 11:07:47 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-18 11:07:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-18 11:07:50 - [MESSAGE][PASSED] - Browser is opened with url: 'https://calc.crafton.ocweb.team/mutual-fund/'
+
+2019-04-18 11:07:50 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-04-18 11:07:50 - [TEST_STEP][PASSED] - baseUrl = "https://calc.crafton.ocweb.team/mutual-fund/": null
+
+2019-04-18 11:07:50 - [TEST_STEP][PASSED] - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2019-04-18 11:07:50 - [TEST_STEP][PASSED] - selenium.open("https://calc.crafton.ocweb.team/mutual-fund/"): null
+
+2019-04-18 11:07:50 - [TEST_STEP][PASSED] - selenium.click("id=years"): null
+
+2019-04-18 11:07:50 - [TEST_STEP][PASSED] - selenium.type("id=years", "45"): null
+
+2019-04-18 11:07:50 - [TEST_STEP][PASSED] - selenium.click("id=rateOfReturn"): null
+
+2019-04-18 11:07:50 - [TEST_STEP][PASSED] - selenium.type("id=rateOfReturn", "5"): null
+
+2019-04-18 11:07:51 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Rate of Return:'])[1]/following::div[2]"): null
+
+2019-04-18 11:07:51 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Rate of Return:'])[1]/following::div[2]"): null
+
+2019-04-18 11:07:51 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Rate of Return:'])[1]/following::div[2]"): null
+
+2019-04-18 11:07:51 - [TEST_STEP][PASSED] - selenium.type("id=initialInvestment", "500000"): null
+
+2019-04-18 11:07:51 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Initial Investment:'])[1]/following::div[2]"): null
+
+2019-04-18 11:07:51 - [TEST_STEP][PASSED] - selenium.type("id=annualInvestments", "2000"): null
+
+2019-04-18 11:07:51 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Annual Investments:'])[1]/following::div[2]"): null
+
+2019-04-18 11:07:51 - [TEST_STEP][PASSED] - selenium.type("id=inflationRate", "2"): null
+
+2019-04-18 11:07:51 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Inflation Rate:'])[1]/following::div[2]"): null
+
+2019-04-18 11:07:51 - [TEST_STEP][PASSED] - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Inflation Rate:'])[1]/following::label[1]"): null
+
+2019-04-18 11:07:51 - [TEST_STEP][PASSED] - selenium.type("id=taxRate", "34"): null
+
+2019-04-18 11:07:51 - [TEST_STEP][PASSED] - selenium.click("id=investment-return-calculate"): null
+
+2019-04-18 11:07:51 - [TEST_STEP][PASSED] - selenium.click("name=s"): null
+
+2019-04-18 11:07:51 - [TEST_STEP][PASSED] - takeScreenshot("/Users/sthokala/Documents/MFCalculator.png"): Taking screenshot successfully
+
+2019-04-18 11:07:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/sthokala/Documents/MFCalculator.png]]
+
+2019-04-18 11:07:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-18 11:07:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-18 11:07:42 - [TEST_SUITE][PASSED] - Calculators: Test Cases/MutualFundCalc]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

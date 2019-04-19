@@ -1,0 +1,60 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Calculators,Chrome 73.0.3683.103,,2019-04-18 13:29:58,2019-04-18 13:30:21,23.127s,ERROR
+,,,,,,
+Test Cases/DividendReinvestmentCalc,Chrome 73.0.3683.103,,2019-04-18 13:29:58,2019-04-18 13:30:04,5.360s,PASSED
+"openBrowser(""https://calc.crafton.ocweb.team/dividend-reinvestment/"")",Chrome 73.0.3683.103,,2019-04-18 13:29:59,2019-04-18 13:30:02,2.938s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.103,,2019-04-18 13:30:02,2019-04-18 13:30:02,0.005s,PASSED
+"baseUrl = ""https://calc.crafton.ocweb.team/dividend-reinvestment/""",Chrome 73.0.3683.103,,2019-04-18 13:30:02,2019-04-18 13:30:02,0.000s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Chrome 73.0.3683.103,,2019-04-18 13:30:02,2019-04-18 13:30:02,0.062s,PASSED
+"selenium.open(""https://calc.crafton.ocweb.team/dividend-reinvestment/"")",Chrome 73.0.3683.103,,2019-04-18 13:30:02,2019-04-18 13:30:02,0.186s,PASSED
+"selenium.click(""id=initialNumberOfShares"")",Chrome 73.0.3683.103,,2019-04-18 13:30:02,2019-04-18 13:30:02,0.089s,PASSED
+"selenium.type(""id=initialNumberOfShares"", ""200"")",Chrome 73.0.3683.103,,2019-04-18 13:30:02,2019-04-18 13:30:02,0.051s,PASSED
+"selenium.click(""id=initialPriceOfShares"")",Chrome 73.0.3683.103,,2019-04-18 13:30:02,2019-04-18 13:30:02,0.081s,PASSED
+"selenium.type(""id=initialPriceOfShares"", ""234"")",Chrome 73.0.3683.103,,2019-04-18 13:30:02,2019-04-18 13:30:02,0.043s,PASSED
+"selenium.click(""id=annualDividend"")",Chrome 73.0.3683.103,,2019-04-18 13:30:02,2019-04-18 13:30:02,0.049s,PASSED
+"selenium.type(""id=annualDividend"", ""23432"")",Chrome 73.0.3683.103,,2019-04-18 13:30:02,2019-04-18 13:30:02,0.040s,PASSED
+"selenium.click(""id=dividendAnnualGrowthRate"")",Chrome 73.0.3683.103,,2019-04-18 13:30:02,2019-04-18 13:30:02,0.058s,PASSED
+"selenium.type(""id=dividendAnnualGrowthRate"", ""43"")",Chrome 73.0.3683.103,,2019-04-18 13:30:02,2019-04-18 13:30:02,0.038s,PASSED
+"selenium.click(""id=stockPriceAnnualGrowthRate"")",Chrome 73.0.3683.103,,2019-04-18 13:30:02,2019-04-18 13:30:02,0.047s,PASSED
+"selenium.type(""id=stockPriceAnnualGrowthRate"", ""23"")",Chrome 73.0.3683.103,,2019-04-18 13:30:02,2019-04-18 13:30:02,0.038s,PASSED
+"selenium.click(""id=numberOfYears"")",Chrome 73.0.3683.103,,2019-04-18 13:30:02,2019-04-18 13:30:02,0.046s,PASSED
+"selenium.type(""id=numberOfYears"", ""3"")",Chrome 73.0.3683.103,,2019-04-18 13:30:02,2019-04-18 13:30:03,0.039s,PASSED
+"selenium.click(""id=numOfReinvestmentPerYear"")",Chrome 73.0.3683.103,,2019-04-18 13:30:03,2019-04-18 13:30:03,0.086s,PASSED
+"selenium.select(""id=numOfReinvestmentPerYear"", ""label=3"")",Chrome 73.0.3683.103,,2019-04-18 13:30:03,2019-04-18 13:30:03,0.348s,PASSED
+"selenium.click(""id=dividend-reinvestment-calculate"")",Chrome 73.0.3683.103,,2019-04-18 13:30:03,2019-04-18 13:30:03,0.294s,PASSED
+"selenium.click(""name=s"")",Chrome 73.0.3683.103,,2019-04-18 13:30:03,2019-04-18 13:30:03,0.060s,PASSED
+"takeScreenshot(""/Users/sthokala/Documents/DRCalculator.png"")",Chrome 73.0.3683.103,,2019-04-18 13:30:03,2019-04-18 13:30:04,0.433s,PASSED
+selenium.close(),Chrome 73.0.3683.103,,2019-04-18 13:30:04,2019-04-18 13:30:04,0.114s,PASSED
+,,,,,,
+Test Cases/Prod_MutualFund,Chrome 73.0.3683.103,,2019-04-18 13:30:04,2019-04-18 13:30:14,10.235s,ERROR
+"openBrowser(""https://wealthyretirement.com/mutual-fund-calculator/"")",Chrome 73.0.3683.103,,2019-04-18 13:30:04,2019-04-18 13:30:12,7.919s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.103,,2019-04-18 13:30:12,2019-04-18 13:30:12,0.000s,PASSED
+"baseUrl = ""https://wealthyretirement.com/mutual-fund-calculator/""",Chrome 73.0.3683.103,,2019-04-18 13:30:12,2019-04-18 13:30:12,0.001s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Chrome 73.0.3683.103,,2019-04-18 13:30:12,2019-04-18 13:30:12,0.011s,PASSED
+"selenium.open(""https://wealthyretirement.com/mutual-fund-calculator/"")",Chrome 73.0.3683.103,,2019-04-18 13:30:12,2019-04-18 13:30:14,2.125s,PASSED
+"selenium.selectFrame(""index=0"")",Chrome 73.0.3683.103,,2019-04-18 13:30:14,2019-04-18 13:30:14,0.018s,PASSED
+"selenium.click(""id=years"")",Chrome 73.0.3683.103,,2019-04-18 13:30:14,2019-04-18 13:30:14,0.048s,ERROR
+,,,,,,
+Test Cases/Prod_DividendReinvestment,Chrome 73.0.3683.103,,2019-04-18 13:30:14,2019-04-18 13:30:21,7.337s,PASSED
+"openBrowser(""https://wealthyretirement.com/dividend-reinvestment-calculator/"")",Chrome 73.0.3683.103,,2019-04-18 13:30:14,2019-04-18 13:30:18,3.663s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.103,,2019-04-18 13:30:18,2019-04-18 13:30:18,0.000s,PASSED
+"baseUrl = ""https://wealthyretirement.com/dividend-reinvestment-calculator/""",Chrome 73.0.3683.103,,2019-04-18 13:30:18,2019-04-18 13:30:18,0.001s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Chrome 73.0.3683.103,,2019-04-18 13:30:18,2019-04-18 13:30:18,0.012s,PASSED
+"selenium.open(""https://wealthyretirement.com/dividend-reinvestment-calculator/"")",Chrome 73.0.3683.103,,2019-04-18 13:30:18,2019-04-18 13:30:19,1.596s,PASSED
+"selenium.click(""id=initialNumberOfShares"")",Chrome 73.0.3683.103,,2019-04-18 13:30:19,2019-04-18 13:30:20,0.074s,PASSED
+"selenium.type(""id=initialNumberOfShares"", ""300"")",Chrome 73.0.3683.103,,2019-04-18 13:30:20,2019-04-18 13:30:20,0.040s,PASSED
+"selenium.click(""id=initialPriceOfShares"")",Chrome 73.0.3683.103,,2019-04-18 13:30:20,2019-04-18 13:30:20,0.051s,PASSED
+"selenium.type(""id=initialPriceOfShares"", ""200"")",Chrome 73.0.3683.103,,2019-04-18 13:30:20,2019-04-18 13:30:20,0.039s,PASSED
+"selenium.click(""id=annualDividend"")",Chrome 73.0.3683.103,,2019-04-18 13:30:20,2019-04-18 13:30:20,0.051s,PASSED
+"selenium.type(""id=annualDividend"", ""30,000"")",Chrome 73.0.3683.103,,2019-04-18 13:30:20,2019-04-18 13:30:20,0.039s,PASSED
+"selenium.click(""id=dividendAnnualGrowthRate"")",Chrome 73.0.3683.103,,2019-04-18 13:30:20,2019-04-18 13:30:20,0.049s,PASSED
+"selenium.type(""id=dividendAnnualGrowthRate"", ""4"")",Chrome 73.0.3683.103,,2019-04-18 13:30:20,2019-04-18 13:30:20,0.038s,PASSED
+"selenium.click(""id=stockPriceAnnualGrowthRate"")",Chrome 73.0.3683.103,,2019-04-18 13:30:20,2019-04-18 13:30:20,0.050s,PASSED
+"selenium.type(""id=stockPriceAnnualGrowthRate"", ""5"")",Chrome 73.0.3683.103,,2019-04-18 13:30:20,2019-04-18 13:30:20,0.040s,PASSED
+"selenium.click(""id=numberOfYears"")",Chrome 73.0.3683.103,,2019-04-18 13:30:20,2019-04-18 13:30:20,0.050s,PASSED
+"selenium.type(""id=numberOfYears"", ""2"")",Chrome 73.0.3683.103,,2019-04-18 13:30:20,2019-04-18 13:30:20,0.039s,PASSED
+"selenium.click(""id=numOfReinvestmentPerYear"")",Chrome 73.0.3683.103,,2019-04-18 13:30:20,2019-04-18 13:30:20,0.079s,PASSED
+"selenium.select(""id=numOfReinvestmentPerYear"", ""label=3"")",Chrome 73.0.3683.103,,2019-04-18 13:30:20,2019-04-18 13:30:20,0.336s,PASSED
+"selenium.click(""id=dividend-reinvestment-calculate"")",Chrome 73.0.3683.103,,2019-04-18 13:30:20,2019-04-18 13:30:21,0.308s,PASSED
+"takeScreenshot(""/Users/sthokala/Documents/ProdDRCalculator.png"")",Chrome 73.0.3683.103,,2019-04-18 13:30:21,2019-04-18 13:30:21,0.555s,PASSED
+selenium.close(),Chrome 73.0.3683.103,,2019-04-18 13:30:21,2019-04-18 13:30:21,0.112s,PASSED

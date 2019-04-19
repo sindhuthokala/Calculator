@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Calculators,,,2019-04-18 11:05:24,2019-04-18 11:05:24,0.544s,FAILED
+,,,,,,
+Test Cases/DividendReinvestmentCalc,,,2019-04-18 11:05:24,2019-04-18 11:05:24,0.381s,FAILED
+"openBrowser(""https://calc.crafton.ocweb.team/dividend-reinvestment/"")",,,2019-04-18 11:05:24,2019-04-18 11:05:24,0.160s,FAILED

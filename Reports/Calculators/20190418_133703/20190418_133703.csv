@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Calculators,,,2019-04-18 13:37:05,2019-04-18 13:37:06,1.225s,FAILED
+,,,,,,
+Test Cases/DividendReinvestmentCalc,,,2019-04-18 13:37:05,2019-04-18 13:37:06,0.531s,FAILED
+"openBrowser(""https://calc.crafton.ocweb.team/dividend-reinvestment/"")",,,2019-04-18 13:37:06,2019-04-18 13:37:06,0.155s,FAILED
+,,,,,,
+Test Cases/MutualFundCalc,,,2019-04-18 13:37:06,2019-04-18 13:37:06,0.241s,FAILED
+"openBrowser(""https://calc.crafton.ocweb.team/mutual-fund/"")",,,2019-04-18 13:37:06,2019-04-18 13:37:06,0.010s,FAILED
+,,,,,,
+Test Cases/Prod_DividendReinvestment,,,2019-04-18 13:37:06,2019-04-18 13:37:06,0.263s,FAILED
+"openBrowser(""https://wealthyretirement.com/dividend-reinvestment-calculator/"")",,,2019-04-18 13:37:06,2019-04-18 13:37:06,0.007s,FAILED
