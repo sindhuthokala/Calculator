@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+OnlyProdWealthyRetirement,Chrome 73.0.3683.103,,2019-04-23 09:47:09,2019-04-23 09:47:15,5.948s,ERROR
+,,,,,,
+Test Cases/Prod_MutualFund,Chrome 73.0.3683.103,,2019-04-23 09:47:09,2019-04-23 09:47:14,5.692s,ERROR
+"openBrowser(""https://wealthyretirement.com/mutual-fund-calculator/"")",Chrome 73.0.3683.103,,2019-04-23 09:47:09,2019-04-23 09:47:13,3.841s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.103,,2019-04-23 09:47:13,2019-04-23 09:47:13,0.008s,PASSED
+"baseUrl = ""https://wealthyretirement.com/mutual-fund-calculator/""",Chrome 73.0.3683.103,,2019-04-23 09:47:13,2019-04-23 09:47:13,0.000s,PASSED
+"selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Chrome 73.0.3683.103,,2019-04-23 09:47:13,2019-04-23 09:47:13,0.082s,PASSED
+"selenium.open(""https://wealthyretirement.com/mutual-fund-calculator/"")",Chrome 73.0.3683.103,,2019-04-23 09:47:13,2019-04-23 09:47:14,1.405s,PASSED
+"selenium.selectFrame(""index=0"")",Chrome 73.0.3683.103,,2019-04-23 09:47:14,2019-04-23 09:47:14,0.033s,PASSED
+"selenium.click(""id=years"")",Chrome 73.0.3683.103,,2019-04-23 09:47:14,2019-04-23 09:47:14,0.072s,ERROR
