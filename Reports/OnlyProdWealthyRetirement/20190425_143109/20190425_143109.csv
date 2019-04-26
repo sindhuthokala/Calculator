@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+OnlyProdWealthyRetirement,,,2019-04-25 14:31:10,2019-04-25 14:31:11,0.606s,FAILED
+,,,,,,
+Test Cases/Prod_DividendReinvestment,,,2019-04-25 14:31:11,2019-04-25 14:31:11,0.445s,FAILED
+"openBrowser(""https://wealthyretirement.com/dividend-reinvestment-calculator/"")",,,2019-04-25 14:31:11,2019-04-25 14:31:11,0.188s,FAILED
